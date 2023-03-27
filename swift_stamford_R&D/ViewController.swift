@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     
     @IBAction func Card(_ sender: UIButton) {
         if let cardNumber = cardButtons.firstIndex(of: sender){
-//            print("card Number : \(cardNumber)")
             flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
         }
 
